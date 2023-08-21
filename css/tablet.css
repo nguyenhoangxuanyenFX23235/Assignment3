@@ -1,0 +1,30 @@
+@media (min-width: 768px) and (max-width: 1200px) {
+  #banner {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-bar > .name {
+    display: none !important;
+  }
+  #about {
+    display: flex;
+    justify-content: space-between;
+  }
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  .tren-content,
+  .duoi-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .project {
+    grid-template-columns: 1fr 1fr;
+  }
+}
